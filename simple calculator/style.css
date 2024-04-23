@@ -1,0 +1,72 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.main{
+    background-image: url("https://images.unsplash.com/photo-1500817487388-039e623edc21?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDZ8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 99.8vh;
+    background-size:100% 100%;
+    
+    
+    display:flex ;  
+    justify-content: center; 
+    padding: 15% 30%;
+    /* height: 100px;
+    width: 100px; */
+    border: 1px solid black;
+  
+}
+
+.main h2{
+    font-size: 30.5px;
+    color: rgb(136, 52, 4);
+    padding-bottom: 22px;
+    
+}
+
+.main #output{
+    height: 30px;
+    width: 230px;
+    background-color:rgba(254, 253, 253, 0.2);
+    border: 2px solid black;
+    align-content: end;
+    margin-bottom: 10px;
+    font-size: 1.3rem;  
+    color: rgb(13, 13, 14);  
+    text-decoration: rgb(128, 172, 172);
+}
+
+.container .key{
+    display: flex;
+    gap: 2.5rem;
+
+    
+}
+
+
+.container .key .keys{
+    display: grid;
+    grid-template-areas: 
+    'kbutton kbutton kbutton';
+    grid-gap: 1rem;
+}
+
+.container .key .keys .button,
+.container .key .operators .kbutton{
+    font-size: 2rem;
+    color: rgb(6, 6, 6);
+    background-color:rgba(131, 127, 127, 0.4);
+    border: 1px solid black;
+    padding: 4px;
+}
+
+.container .key .operators {
+    display: grid;
+    grid-template-areas: 
+    'kbutton kbutton ';
+    grid-gap: 1rem;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+
+<div class="main">
+    <div class="container">
+        <h2>Simple Calculator </h2>
+        <div id="output"></div>
+
+        <div class="key">
+            <div class="keys">
+                <button class="button" onclick="appendToOutput('1')">1</button>
+                <button class="button" onclick="appendToOutput('2')">2</button>
+                <button class="button" onclick="appendToOutput('3')">3</button>
+                <button class="button" onclick="appendToOutput('4')">4</button>
+                <button class="button" onclick="appendToOutput('5')">5</button>
+                <button class="button" onclick="appendToOutput('6')">6</button>
+                <button class="button" onclick="appendToOutput('7')">7</button>
+                <button class="button" onclick="appendToOutput('8')">8</button>
+                <button class="button" onclick="appendToOutput('9')">9</button>
+               
+            </div>
+    
+            <div class="operators">
+                
+                <button class="kbutton" onclick="appendToOutput('+')">+</button>
+                <button class="kbutton" onclick="appendToOutput('-')">-</button>
+                <button class="kbutton" onclick="appendToOutput('*')">*</button>
+                <button class="kbutton" onclick="appendToOutput('/')">/</button>
+                <button class="kbutton" onclick="appendToOutput('0')">0</button>
+                <button class="kbutton" onclick="calculate()">=</button>
+            </div>
+
+        </div>
+
+        
+        
+        <p id="result"></p>
+    </div>
+</div>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
